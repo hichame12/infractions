@@ -1,0 +1,149 @@
+.table_Info a {
+    color: #00838F;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.table_Info table {
+    border-collapse: collapse;
+    border: 1px solid #00838F;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 18px;
+}
+
+.table_Info table td {
+    padding: 20px;
+    white-space: nowrap;
+}
+
+.table_Info table td:last-child {
+    text-align: right;
+}
+
+.table_Info table tr:first-child {
+    background-color: gray;
+    color: #fff;
+    font-weight: bold;
+}
+
+.table_Info table tr {
+    border-bottom: 1px dotted #00838F;
+}
+
+.table_Info form table {
+    width: 25%;
+}
+
+.table_Info form table tr {
+    vertical-align: top;
+}
+
+.table_Info form table tr:first-child {
+    background-color: #fff;
+    color: #000;
+    font-weight: normal;
+}
+
+.table_Info form table tr:last-child {
+    text-align: center;
+}
+
+.table_Info .button {
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #92BA56;
+    border: 1px solid #92BA56;
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px;
+    min-width: 100px;
+}
+
+.table_Info .button:hover {
+    background-color: #FFF;
+    color: #92BA56;
+    cursor: pointer;
+}
+
+.table_Info input[type=submit] {
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #92BA56;
+    border: 1px solid #92BA56;
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px;
+    min-width: 100px;
+}
+
+.table_Info input[type=submit]:hover {
+    background-color: #FFF;
+    color: #92BA56;
+    cursor: pointer;
+}
+
+.table_Info input[type=submit].cancel {
+    background-color: #C0C0C0;
+    background-color: #C0C0C0;
+    border: 1px solid #C0C0C0;
+}
+
+.table_Info input[type=submit].cancel:hover {
+    background-color: #FFF;
+    color: #C0C0C0;
+    cursor: pointer;
+}
+
+.table_Info .float-right {
+    float: right;
+}
+
+.table_Info .error { 
+    color: red;
+    font-size: 12px;
+}
+#test_conection{
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    font-size: 10px;
+}
+#add_Decl{
+    margin: 30px auto;
+}
+#Add_Cars_table{
+    margin: 30px auto;
+}
+#Add_Cars{
+    text-align: center;
+    display: none;
+    margin: 30px auto;
+    padding: 10px
+}
+td{
+    padding: 5px 0px;
+}
+#Content_Info{
+    margin: 0px auto 30px auto;
+}
+#Content_Add{
+    display: none; 
+    text-align: center;
+}
+#Content_Add table{
+    text-align: left;
+}
+#Content_Cars{
+    text-align: center;
+}
+#Content_Cars table{
+    text-align: left;
+}
+.form-submit-button{
+    margin-bottom: 30px;
+}
+input[type=text]{
+    margin: auto 5px;
+}

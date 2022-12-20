@@ -1,0 +1,136 @@
+input{
+    text-align: center;
+}
+td{
+    padding: 5px 5px;
+}
+
+/*************************navbar**************************/
+.dropdown-submenu {
+    position: relative;
+  }
+  
+  .dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 6px;
+    top: .8em;
+  }
+  
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-left: .1rem;
+    margin-right: .1rem;
+  }
+  .dropdown-item{
+    direction: rtl;
+  }
+  .choixDecl{
+    font-weight: bold;
+    text-align: center;
+    background-color: #e9ecef;
+  }
+  .choixDecl:hover{
+    opacity: 0.75;
+  }
+/*************************header**************************/
+header{
+    background-color: #c6d9f1
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0px;
+  }
+.flex-container label:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+.flex-container input:hover{
+    cursor: pointer;
+}
+/*************************mains**************************/
+h2{
+    text-align: center;
+}
+#prici{
+    border: 1px solid;
+    width: 21cm;
+    margin: auto;
+}
+.txtR{
+    text-align: right;
+}
+.txtC{
+    text-align: center;
+}
+
+#contraventionL{
+    width: 90px;
+}
+#contraventionS{
+    width: 50px;
+}
+
+#matriculeL{
+    width: 62px;
+}
+#matriculeS{
+    width: 35px;
+}
+#AvisContravention{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#InfractionPar{
+    margin: 5px auto;
+}
+
+#ColorBl{
+    background-color: #c6d9f1;
+}
+
+#cinSFP{
+    width: 40px;
+}
+#cinLFP{
+    width: 80px;
+}
+
+#permiSFP{
+    width: 40px;
+}
+#permiLFP{
+    width: 80px;
+}
+/*************************BUTTON SUBMIT**************************/
+.form-submit-button {
+    background: #B9DFFF;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    width: 300px;
+    height: 70px;
+    font-size: 40px;
+    }
+    .form-submit-button:hover {
+    background: #016ABC;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    cursor: pointer;
+    }
+    .btn1{
+        text-align: center;
+    }
+  /************************INPUT FILTER**********************/
+  .input-error{
+    outline: 1px solid red;
+  }
+    /***************************************************/

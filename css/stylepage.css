@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+  }
+.book{
+  font: 12pt "Tahoma";
+}
+  
+  * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  
+  .page {
+    width: 21cm;
+    min-height: 29.7cm;
+    margin: auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subpage {
+    height: 29.7cm;
+    width: 21cm;
+    outline: 1cm #FFEAEA solid;
+  }
+  
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  
+  @media print {
+    .page {
+      margin: 0;
+      border: initial;
+      border-radius: initial;
+      width: initial;
+      min-height: initial;
+      box-shadow: initial;
+      background: initial;
+      page-break-after: always;
+    }
+  }
+
+  img {
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+    position: absolute;
+}
+#image{
+    height: 29.7cm;
+    width: 21cm;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
